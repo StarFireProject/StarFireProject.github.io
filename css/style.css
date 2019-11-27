@@ -1,0 +1,457 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-size: 1.2vw;
+	font-family: "Upheaval TT -BRK-", sans-serif;
+	font-weight: 400;
+}
+
+body {
+	height: 100%;
+	background-color: #1b2838;
+}
+
+.mainHeader {
+	display: flex;
+	height: 4.81vw;
+	justify-content: space-between;
+	background-color: #171a21;
+	color: #fff;
+}
+
+.mainHeader .container {
+	display: flex;
+	margin-left: 6.64%;
+	align-items: center;
+}
+
+.logo {
+	width: 3.36vw;
+	margin-right: 1.5rem;
+}
+
+.logo-name {
+	font-size: 2.2vw;
+	color: #ddd;
+	text-transform: uppercase;
+}
+
+.mainHeader-nav {
+	display: flex;
+	align-items: center; 
+	margin-right: 6.64%;
+}
+
+.mainHeader-list {
+	display: flex;
+}
+
+.mainHeader-nav-link:nth-child(2) {
+	margin: 0 2.34vw;
+}
+
+.mainHeader-nav-link-item {
+	font-size: 1.3vw;
+	color: #acb2b8;
+	text-decoration: none;
+}
+
+.mainHeader-nav-link-item:hover {
+	color: #fff;
+}
+
+.mainContent-carosel {
+	padding-top: calc(13.53% - 3.6rem);
+	padding-bottom: calc(16.85% - 3.6rem);
+	background: -moz-linear-gradient(90deg, rgba(30,46,82,0) 6%, rgba(37,57,104,1) 50%, rgba(30,42,80,0) 94%);
+	background: -webkit-linear-gradient(90deg, rgba(30,46,82,0) 6%, rgba(37,57,104,1) 50%, rgba(30,42,80,0) 94%);
+	background: linear-gradient(90deg, rgba(30,46,82,0) 6%, rgba(37,57,104,1) 50%, rgba(30,42,80,0) 94%);
+}
+
+.game-toten {
+	font-size: 8vw;
+	text-align: center;
+	color: #f00;
+	text-shadow: 0 0.3vw 0 #6c0000, 0 0.48vw 1.6vw #000;
+	margin: 0 0 1rem 0;
+}
+
+.line {
+	padding: .25rem;
+	background: linear-gradient(90deg, rgba(255,255,255,0) 15%, rgba(223,25,25,1) 50%, rgba(255,255,255,0) 85%);
+	margin: 0 0 4.68%;
+}
+
+.mainContent-carosel .paragraph {
+	font-size: 2.7vw;
+	text-align: center;
+	text-shadow: 0 0.3vw 0 #1b2838;
+	color: #ddd;
+}
+
+.title {
+	font-size: 4.2vw;
+	margin: 0;
+}
+
+.gameTrailer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4.68% 0;
+}
+
+.gameTrailer .resp-container {
+	width: 60.15%;
+	margin: 0 auto;	
+	position: relative;
+	overflow: hidden;
+  padding-top: 33.82%;
+}
+
+.gameTrailer-respVideo {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.gameTrailer .title, .aboutGame .title, 
+.buyNow .title, .followUs .title, .meetOurTeam .title
+{
+	text-align: center;
+	text-shadow: 0 0.3vw 0 #2f455f, 0 0.48vw 1.6vw #000;
+	color: #ddd;
+}
+
+.gameTrailer .title, .aboutGame .title,
+.buyNow .title, .followUs .title {
+	padding-bottom: 4.68%;
+}
+
+.aboutGame {
+	background-color: #1b2838;
+}
+
+.aboutGame, .meetOurTeam {
+	padding-bottom: 4.68%;
+}
+
+.aboutGame .container, 
+.meetOurTeam .container {
+	display: flex;
+	justify-content: space-between;
+	width: calc(100% - 13.28%);
+	margin: 0 auto;
+}
+
+.aboutGame-item, .meetOurTeam-person {
+	width: 31.62%;
+}
+
+.aboutGame-item {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	border-radius: 5px;
+	background: linear-gradient(180deg, rgba(0,2,6,1) 0%, rgba(23,26,33,1) 50%, rgba(23,26,33,1) 100%);
+	/*box-shadow: 0 0 4px #000;*/
+}
+
+.aboutGame-item:hover {
+	box-shadow: 5px 5px 8px rgba(0,0,0,.5);
+}
+
+.aboutGame-img {
+	width: 4.2vw;
+	height: 4.2vw;
+	margin: 0 auto 1.5rem auto;
+}
+
+.aboutGame-subtitle {
+	font-size: 2.7vw;
+	text-align: center;
+	color: #eee;
+	text-shadow: 0 0.30vw 0 #2f455f, 0 0.48vw 1vw #000;
+	margin-bottom: 1rem;
+}
+
+.aboutGame-paragraph {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #acb2b8;
+}
+
+.meetOurTeam {
+	background: linear-gradient(180deg, rgb(41, 86, 114, 1) 0%, rgba(27,40,56,1) 62%);
+	padding: 4.68% 0;
+}
+
+.meetOurTeam-person {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	background: linear-gradient(180deg, rgba(0,2,6,1) 0%, rgba(23,26,33,1) 50%, rgba(23,26,33,1) 100%);
+	text-align: center;
+	border-radius: 5px;
+	padding: 0 1.5rem 1.5rem 1.5rem;
+	margin-top: 12%;	
+}
+.meetOurTeam-person:hover {
+	box-shadow: 5px 5px 8px rgba(0,0,0,.5);
+}
+
+.person-pic {
+	position: absolute;
+	width: calc(50% - 1.25rem);
+	padding-top: calc(50% - 1.5rem);
+	background-color: #171a21;
+	border: 3px solid #ddd;
+	border-radius: 50%;
+	top: 0;
+	transform: translate3d(48%,-50%,0);
+}
+
+.pic-filipe {
+	background-image: url("../imgs/pic-filipe.jpg");
+	background-size: cover;
+}
+
+.pic-leonardo {
+	background-image: url("../imgs/pic-leonardo.jpg");
+	background-size: 140%;
+	background-position: center;
+}
+
+.pic-lucas {
+	background-image: url("../imgs/pic-lucas.jpg");
+	background-size: cover;
+}
+
+.meetOurTeam-person .about-person {
+	padding-top: calc(25% + 2rem);
+	padding-bottom: 2rem;
+}
+
+.about-person .subtitle {
+	font-size: 2.7vw;
+	color: #eee;
+	text-shadow: 0 0.30vw 0 #2f455f, 0 0.48vw 1vw #000;
+	margin-bottom: 1rem;
+}
+
+.about-person .paragraph {
+	font-family: 'Lato', sans-serif;
+	color: #acb2b8;
+	line-height: 1.5em;
+}
+
+.meetOurTeam-social {
+	display: flex;
+	width: 61.74%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.meetOurTeam-social .icon {
+	width: 23.85%;
+}
+
+.icon {
+	transition-duration: .8s;
+}
+
+.icon:hover {
+	transform: scale(1.4);
+}
+
+.meetOurTeam-social .social-media {
+	display: block;
+	padding-top: 100%;
+	font-size: 0;
+	/*text-indent: -9999px;*/
+}
+
+.meetOurTeam-social .twitter {
+	background-image: url("../imgs/icon-twitter.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.meetOurTeam-social .linkedin {
+	background-image: url("../imgs/icon-linkedin.svg");
+	background-repeat: no-repeat;
+	background-size: 85%;
+	background-position: center;
+}
+
+.meetOurTeam-social .github {
+	background-image: url("../imgs/icon-github.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.buyNow {
+	background-color: rgba(27,40,56,1);
+	padding: 4.68%;
+}
+
+.buyNow .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 60.15%;
+	margin: 0 auto;
+}
+
+.buyNow-store-google-link {
+	width: 35.06%;
+	height: 6.25%;
+	margin-bottom: 11.29%;
+}
+
+.buyNow-store-windows-link {
+	width: 35.06%;
+	height: 6.10%;
+	margin-bottom: 11.29%;
+}
+
+.buyNow-store-amazon-link {
+	width: 35.06%;
+	height: 5.58%;
+}
+
+.buyNow-store-steam-link {
+	width: 20%;
+	margin-right: 15.06%;
+}
+
+.buyNow-store-google-icon, .buyNow-store-windows-icon,
+.buyNow-store-amazon-icon, .buyNow-store-steam-icon
+{
+	width: 100%;
+}
+
+.followUs {
+	background-color: #171a21;
+	padding: 4.68% 0 3.12% 0;
+}
+
+.followUs .container {
+	width: 33.59%;
+	margin: 0 auto;
+}
+
+.followUs-social {
+	display: flex;
+	justify-content: space-between;
+}
+
+.followUs-social .icon {
+	width: 11.62%;
+}
+
+.followUs-social .social-media {
+	display: block;
+	padding-top: 100%;
+	font-size: 0;
+	/*text-indent: -9999px;*/
+}
+
+.followUs-social .twitter {
+	background-image: url("../imgs/icon-twitter.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.followUs-social .facebook {
+	background-image: url("../imgs/icon-facebook-square.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 85%;
+}
+
+.followUs-social .instagram {
+	background-image: url("../imgs/icon-instagram.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 85%;
+}
+
+.followUs-social .youtube {
+	background-image: url("../imgs/icon-youtube.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.followUs-social .github {
+	background-image: url("../imgs/icon-github.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.followUs .paragraph {
+	display: flex;
+	justify-content: center;
+}
+
+.followUs .email-btn {
+	width: 53.48%;
+	padding: 1.15rem 0;
+	margin-top: 13.95%;
+	font-size: 2vw;
+	color: #171a21;
+	letter-spacing: .4rem;
+	text-indent: .4rem;
+	text-align: center;
+	text-decoration: none;
+	background-color: #ddd;
+	border-radius: 5px;
+	border: 3px solid #ddd;
+	transition-duration: .4s;
+}
+
+.followUs .email-btn:hover {
+	background-color: transparent;
+	color: #ddd;
+	cursor: pointer;
+}
+
+.page-footer {
+	margin-top: 4.68%;
+	font-family: 'Lato', sans-serif;
+	font-size: .75rem;
+}
+
+.footer-list {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-item-link {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.footer-item:nth-child(2) {
+	margin: 0 2.34%;
+}
+
+.page-footer .paragraph {
+	margin-top: 2.34%;
+	color: #ddd;
+}
+

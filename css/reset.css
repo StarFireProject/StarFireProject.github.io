@@ -1,0 +1,34 @@
+/*Reset browser patterns*/
+
+html, body, div, span
+h1, h2, h3, h4, h5, h6, p, 
+blockquote, cite, em, img, 
+strong, tt, var, figure,
+dl, dt, dd, ol, ul, li, form, 
+label, table, tbody, tfoot, 
+thead, tr, th, td, article, 
+aside, footer, header, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
